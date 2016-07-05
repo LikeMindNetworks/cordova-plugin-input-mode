@@ -15,7 +15,7 @@
     "input",
     "mode",
     "ecosystem:cordova",
-    "cordova-ios",
+    "cordova-ios"
   ],
   "author": "LikeMindNetworks",
   "license": "Apache 2.0"
