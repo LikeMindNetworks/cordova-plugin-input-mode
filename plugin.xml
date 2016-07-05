@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-input-mode"
+    version="1.0.0">
+    <name>Cordova Keyboard Input Mode</name>
+    <description>Cordova Keyboard Input Mode Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>keyboard,input,mode</keywords>
+    <repo>https://github.com/likemindnetworks/cordova-plugin-input-mode.git</repo>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="KeyboardInputMode">
+                <param name="ios-package" value="KeyboardInputMode" onload="true"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/KeyboardInputMode.h" />
+        <source-file src="src/ios/KeyboardInputMode.m" />
+    </platform>
+</plugin>

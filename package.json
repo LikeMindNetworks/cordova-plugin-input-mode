@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-input-mode",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-input-mode",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "Cordova Keyboard Input Mode Plugin",
+  "repository": "https://github.com/likemindnetworks/cordova-plugin-input-mode.git",
+  "keywords": [
+    "cordova",
+    "keyboard",
+    "input",
+    "mode",
+    "ecosystem:cordova",
+    "cordova-ios",
+  ],
+  "author": "LikeMindNetworks",
+  "license": "Apache 2.0"
+}
